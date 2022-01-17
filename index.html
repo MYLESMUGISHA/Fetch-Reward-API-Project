@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>User Registration Form</h3>
+<div class="container">
+ <form  id="form" autocomplete="off">
+    <label for="fullName">Full Names</label>
+    <input type="text" id="names" name="fullnames" placeholder="Enter your full names..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email.." autocomplete="off">
+    <label for="password">password</label>
+    <input type="password" id="password" name="password" placeholder="Your password..">
+    <label for="Occupations">Occupations</label>
+    <select id="occupation" name="Occupations"></select>
+    <label for="States">States</label>
+    <select id="state" name="States"></select>
+    <input type="submit" value="Register">
+    <p id="user-alert">Please fill up all the fields !</p>
+  </form>
+  <div id="results"></div>
+</body>
+<script rel="js" src="./app.js"></script>
+</html>
